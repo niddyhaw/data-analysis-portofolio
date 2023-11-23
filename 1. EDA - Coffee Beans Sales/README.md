@@ -1,9 +1,4 @@
 ## Exploratory Data Analysis - Coffee Beans Sales
 
-Beberapa hari lalu saya menemukan video di [youtube](https://www.youtube.com/watch?v=m13o5aqeCbM&t=439s) tentang tutorial penggunaan **Microsoft Excel** untuk pembuatan **dashboard** penjualan bijih kopi untuk menampilkan 3 jenis informasi yakni :
-
-- Sales **dari tahun ke tahun.
-- Sales berdasarkan negara.
-- Pelanggan dengan pembelian terbaik*.*
-
-Terinspirasi dari tayangan tersebut, kali ini saya akan membuat portofolio mengenai analisis data eksploratif untuk mengetahui pola dan hubungan antar variabel serta adanya kesalahan atau anomali  pada [dataset](https://github.com/mochen862/excel-project-coffee-sales) yang digunakan pada tayangan tersebut.
+### Introduction
+Beberapa hari lalu saya menonton video di [youtube](https://www.youtube.com/watch?v=m13o5aqeCbM&t=439s) tentang tutorial penggunaan **Microsoft Excel** untuk pembuatan **dashboard** penjualan bijih kopi. Akan tetapi pembuat video hanya mampu menampilkan 3 informasi karena keterbatasan durasi. Oleh sebab itu pada portofolio kali ini saya akan mencoba melakukan analisis data lebih lanjut secara eksploratif *(exploratory data analysis)* menggunakan **Python** & **Google Colab** untuk mengetahui informasi-informasi lain mengenai penjualan bijih kopi yang dapat digali dari [dataset](https://github.com/mochen862/excel-project-coffee-sales) yang digunakan pada tayangan tersebut.
