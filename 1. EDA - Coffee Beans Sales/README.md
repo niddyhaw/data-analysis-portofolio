@@ -1,4 +1,6 @@
 ## Exploratory Data Analysis - Coffee Beans Sales
 
-### Introduction
-Beberapa hari lalu saya menonton video di [youtube](https://www.youtube.com/watch?v=m13o5aqeCbM&t=439s) tentang tutorial penggunaan **Microsoft Excel** untuk pembuatan **dashboard** penjualan bijih kopi. Akan tetapi pembuat video hanya mampu menampilkan 3 informasi karena keterbatasan durasi. Oleh sebab itu pada portofolio kali ini saya akan mencoba melakukan analisis data lebih lanjut secara eksploratif *(exploratory data analysis)* menggunakan **Python** & **Google Colab** untuk mengetahui informasi-informasi lain mengenai penjualan bijih kopi yang dapat digali dari [dataset](https://github.com/mochen862/excel-project-coffee-sales) yang digunakan pada tayangan tersebut.
+### Overview
+Perusahaan XYZ merupakan yang bergerak dalam penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris. Perusahaan XYZ berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. Akan tetapi, analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman secara mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. Maka dari itu, analisis data secara eksploratif *(exploratory data analysis)* diperlukan untuk mengetahui pola, hubungan antar data serta mengidentifikasi adanya kesalahan dan anomali guna mendapatkan informasi serat pemahaman lebih lanjut mengenai penjualan bijih kopi di perusahaan XYZ. 
+
+### Problem 
