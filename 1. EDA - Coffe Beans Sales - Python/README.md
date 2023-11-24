@@ -2,7 +2,7 @@
 
 ### Content List
  - [Overview](#overview)
- - [Dataset dan Tools](#dataset-and-tools)
+ - [Tools and Dataset](#tools-and-dataset)
  - [*Exploratory Data Analysis*](#exploratory-data-analysis)
     - [Load Data from Github to Google Colab](#1-load-data-ke-google-colab)
 
@@ -10,10 +10,13 @@
 
 
 ### Overview
-Perusahaan XYZ merupakan yang bergerak dalam penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris. Perusahaan berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. Akan tetapi, proses analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. Maka dari itu, penerapan analisis data secara eksploratif *(exploratory data analysis)* diperlukan untuk mengetahui pola, hubungan antar data serta mengidentifikasi adanya kesalahan dan anomali guna mendapatkan informasi serat pemahaman lebih lanjut mengenai penjualan bijih kopi di perusahaan XYZ. 
+Perusahaan XYZ merupakan yang bergerak dalam penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris. Perusahaan berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. Akan tetapi, proses analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk mengetahui pola, hubungan antar data serta mengidentifikasi adanya kesalahan dan anomali guna mendapatkan informasi serat pemahaman bisnis pada  penjualan bijih kopi di perusahaan XYZ. 
 
-### Dataset and Tools 
-Pada portofolio ini, kita akan melakukan analisis data eksploratif secara bertahap pada dataset penjualan bijih kopi menggunakan pemrograman *Python* di *Google Colab*. Adapun dataset yang digunakan pada portofolio ini dapat di unduh dari repositori github berjudul *Excel Project Coffee Sales* milik [mochen862](https://github.com/mochen862/excel-project-coffee-sales).
+### Tools and Dataset
+- Dataset : [Repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
+- Bahasa Pemrograman : *Python*.
+- *Notebook Platform* : *Google Colab*.
+
 
 
 ### *Exploratory Data Analysis*
@@ -25,6 +28,10 @@ Analisis data eksploratif atau *Exploratory Data Analysis* *(EDA)* merupakan pro
 4. Deteksi *Missing Value* dan Anomali
 5. Deteksi *Outlier* 
 6. *Feature Engineering*
+
+<p align="center">
+  <img src="img/EDA.png" alt="EDA" >
+</p>
 
 Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan pemrograman Python di Google Colab. 
 
