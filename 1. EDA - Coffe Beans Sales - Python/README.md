@@ -53,13 +53,13 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 - Tahapan : 
     - Buka _Google Colab_.
     - Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
-        ```pyhton
-
-        import pandas as pd
-        import requests
         
-        ```
-    - Unduh
+```pyhton
+import pandas as pd
+import requests
+```
+    
+    - Unduh file menggunakan fungsi **requests**. 
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
