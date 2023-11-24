@@ -77,10 +77,10 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
         ```
 - **Hasil**: 
     <p align="center">
-    <img src="img/order_df.png" alt="order df" title="Orders Dataframe">
+    <img src="img/order_df.png" alt="order df" title="Orders Dataframe" width = 50% >
     <img src="img/customer_df.png" alt="cs df" title="Customers Dataframe">
     <img src="img/product_df.png" alt="product df" title="Products Dataframe">
     </p>
-    
+
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
