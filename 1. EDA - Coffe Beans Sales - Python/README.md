@@ -1,4 +1,6 @@
-## Exploratory Data Analysis - Coffee Beans Sales
+## Exploratory Data Analysis - Coffee Beans Consumer Insight
+
+> [Back to Start Page](https://github.com/niddyhaw/data-analysis-portofolio)
 
 ### Content List
  - [Overview](#overview)
@@ -6,22 +8,20 @@
  - [*Exploratory Data Analysis*](#exploratory-data-analysis)
     - [Load Data from Github to Google Colab](#1-load-data-ke-google-colab)
 
+### *Overview*
+- **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
+- Perusahaan berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. 
+- Akan tetapi, proses analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. 
+- Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk `mengetahui pola dan karakteristik pelanggan` serta `mengidentifikasi adanya kesalahan dan anomali` guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ. 
 
-
-
-### Overview
-Perusahaan XYZ merupakan yang bergerak dalam penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris. Perusahaan berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. Akan tetapi, proses analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk mengetahui pola, hubungan antar data serta mengidentifikasi adanya kesalahan dan anomali guna mendapatkan informasi serat pemahaman bisnis pada  penjualan bijih kopi di perusahaan XYZ. 
-
-### Tools and Dataset
+### *Tools and Dataset*
 - Dataset : [Repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
 - Bahasa Pemrograman : *Python*.
 - *Notebook Platform* : *Google Colab*.
 
-
-
 ### *Exploratory Data Analysis*
 
-Analisis data eksploratif atau *Exploratory Data Analysis* *(EDA)* merupakan proses awal yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan adanya **EDA,** kita dapat dengan mudah memahami pola, identifikasi kesalahan atau anomai serta mampu mengeksplorasi hubungan antar variabel dalam data. Menurut [Tufféry, S.](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
+**Analisis data eksploratif** atau **_Exploratory Data Analysis_ _(EDA)_** merupakan proses awal yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan adanya **_EDA,_** kita dapat dengan mudah memahami pola, identifikasi kesalahan atau anomai serta mampu mengeksplorasi hubungan antar variabel dalam data. Menurut [Tufféry, S.](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
 
 1. Identifikasi Atribut 
 2. Analisis secara Univariat
@@ -36,11 +36,11 @@ Analisis data eksploratif atau *Exploratory Data Analysis* *(EDA)* merupakan pro
 </p>
 
 
-Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan pemrograman Python di Google Colab. 
+Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan pemrograman *Python* di *Google Colab*. 
 
 ***Lets Get Started!***
 
-### 1. Load Data to Google Colab
+#### 1. Load Data to Google Colab
 Dataset ini didapatkan dari 
 
 
