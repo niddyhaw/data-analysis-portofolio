@@ -27,12 +27,12 @@ yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan
 
 Menurut [Tufféry, S.](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
 
-    1. Identifikasi Atribut 
-    2. Analisis secara Univariat
-    3. Analisis secara Bi-Multivariat
-    4. Deteksi *Missing Value* dan Anomali
-    5. Deteksi *Outlier* 
-    6. *Feature Engineering*
+1. Identifikasi Atribut 
+2. Analisis secara Univariat
+3. Analisis secara Bi-Multivariat
+4. Deteksi *Missing Value* dan Anomali
+5. Deteksi *Outlier* 
+6. *Feature Engineering*
 
 <p align="center">
     <br>
