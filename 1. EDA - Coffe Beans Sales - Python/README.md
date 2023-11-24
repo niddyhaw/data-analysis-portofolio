@@ -77,9 +77,14 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
         ```
 - **Hasil**: 
     <p align="center">
-    <img src="img/order_df.png" alt="order df" title="Orders Dataframe" width = 30% >
-    <img src="img/customer_df.png" alt="cs df" title="Customers Dataframe" width = 30%>
-    <img src="img/product_df.png" alt="product df" title="Products Dataframe" width = 30%>
+        <img src="img/order_df.png" alt="order df" title="Orders Dataframe" width = 30% >
+        <img src="img/customer_df.png" alt="cs df" title="Customers Dataframe" width = 30%>
+        <img src="img/product_df.png" alt="product df" title="Products Dataframe" width = 30%>
+    </p>
+    <p align="center">
+        <p align="left"> Orders Dataframe </p>
+        <p > Customers Dataframe </p>
+        <p align="right"> Products Dataframe </p>
     </p>
 
 ### Referensi 
