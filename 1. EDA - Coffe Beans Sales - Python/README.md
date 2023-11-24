@@ -10,9 +10,9 @@
 
 ### *Overview*
 - **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
-- Perusahaan berupaya mengandalkan data penjualan mentah untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. 
-- Akan tetapi, proses analisis menggunakan data mentah langsung seringkali kurang memberikan pemahaman mendalam *(insight)* dan rentan terhadap adanya kesalahan *(outlier)* serta anomali data. 
-- Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk `mengetahui pola dan karakteristik pelanggan` serta `mengidentifikasi adanya kesalahan dan anomali` guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ. 
+- Perusahaan berupaya **mengandalkan data penjualan mentah** untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. 
+- Akan tetapi, proses analisis menggunakan data mentah langsung seringkali **kurang** memberikan pemahaman mendalam *(insight)* dan **rentan** terhadap adanya kesalahan *(outlier)* serta anomali data. 
+- Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk **mengetahui pola dan karakteristik pelanggan** serta **mengidentifikasi adanya kesalahan dan anomali** guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ. 
 
 ### *Tools and Dataset*
 - Dataset : [Repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
@@ -31,8 +31,10 @@
 6. *Feature Engineering*
 
 <p align="center">
-  <img src="img/EDA.png" alt="EDA" >
-  <p align="center"> Tahapan dari EDA</p>
+    <br>
+    <img src="img/EDA.png" alt="EDA" >
+    <p align="center"> Tahapan dari EDA</p>
+    <br>
 </p>
 
 
