@@ -6,7 +6,7 @@
  - [Overview](#overview)
  - [Tools and Dataset](#tools-and-dataset)
  - [*Exploratory Data Analysis*](#exploratory-data-analysis)
-    - [Load Data from Github to Google Colab](#1-load-data-ke-google-colab)
+    - [Load Data from Github to Google Colab](#load-data-to-google-colab)
 
 ### *Overview*
 **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
@@ -16,7 +16,7 @@ Perusahaan berupaya **mengandalkan data penjualan mentah** untuk mengetahui info
 Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory data analysis)* untuk **mengetahui pola dan karakteristik pelanggan** serta **mengidentifikasi adanya kesalahan dan anomali** guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ dalam setahun terakhir. 
 
 ### *Tools and Dataset*
-- Dataset : [Repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
+- Dataset : [coffeeOrderData.xlsx dari repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
 - Bahasa Pemrograman : *Python*.
 - *Notebook Platform* : *Google Colab*.
 
@@ -46,12 +46,18 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
 ***Lets Get Started!***
 
+<br></br>
+
 #### Load Data to Google Colab
-
-Dataset yang digunakan pada portofolio ini didapatkan dari repositori milik mochen862 bernama _`coffeeOrderData`_ dengan format `.xlsx` atau `excel`. Terdapat 3 _sheets_ berbeda yakni :
-
-
-##### Data Source and Relationship Model
+- Url Sumber Data : `https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx` 
+- Tahapan : 
+    - Buka _Google Colab_.
+    - Impor pustaka yang dibutuhkan (`requests` dan `pandas`).
+        ```pyhton
+        import pandas as pd
+        import requests
+        ```
+    - Unduh
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
