@@ -79,9 +79,9 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
     <table>
       <tr>
-        <td><img src="img/order_df.png" width=30%></td>
-        <td><img src="img/customer_df.png" width=30%></td>
-        <td><img src="img/product_df.png" width=30%></td>
+        <td><img src="img/order_df.png" </td>
+        <td><img src="img/customer_df.png" ></td>
+        <td><img src="img/product_df.png" ></td>
       </tr>
       <tr>
         <td>Orders Dataframe</td>
