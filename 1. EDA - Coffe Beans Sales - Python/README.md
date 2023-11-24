@@ -1,6 +1,6 @@
 ## Exploratory Data Analysis - Coffee Beans Consumer Insight
 
-> [Back to Start Page](https://github.com/niddyhaw/data-analysis-portofolio)
+> [Back to HomePage](https://github.com/niddyhaw/data-analysis-portofolio)
 
 ### Content List
  - [Overview](#overview)
@@ -10,9 +10,8 @@
 
 ### *Overview*
 - **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
-- Perusahaan berupaya **mengandalkan data penjualan mentah** untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. 
-- Akan tetapi, proses analisis menggunakan data mentah langsung seringkali **kurang** memberikan pemahaman mendalam *(insight)* dan **rentan** terhadap adanya kesalahan *(outlier)* serta anomali data. 
-- Maka dari itu, kali ini kita akan menerapkan analisis data secara eksploratif *(exploratory data analysis)* untuk **mengetahui pola dan karakteristik pelanggan** serta **mengidentifikasi adanya kesalahan dan anomali** guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ. 
+- Perusahaan berupaya **mengandalkan data penjualan mentah** untuk mengetahui informasi kinerja, trend dan statistik penjualan secara umum. Akan tetapi, proses analisis menggunakan data mentah langsung seringkali **kurang** memberikan pemahaman mendalam *(insight)* dan **rentan** terhadap adanya kesalahan *(outlier)* serta anomali data. 
+- Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory data analysis)* untuk **mengetahui pola dan karakteristik pelanggan** serta **mengidentifikasi adanya kesalahan dan anomali** guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ dalam setahun terakhir. 
 
 ### *Tools and Dataset*
 - Dataset : [Repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
