@@ -76,16 +76,20 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
         products = pd.read_excel(xls, 'products')
         ```
 - **Hasil**: 
-    <p align="center">
-        <img src="img/order_df.png" alt="order df" title="Orders Dataframe" width = 30% >
-        <img src="img/customer_df.png" alt="cs df" title="Customers Dataframe" width = 30%>
-        <img src="img/product_df.png" alt="product df" title="Products Dataframe" width = 30%>
-    </p>
-    <p align="center">
-        <p align="left"> Orders Dataframe </p>
-        <p > Customers Dataframe </p>
-        <p align="right"> Products Dataframe </p>
-    </p>
+
+    <table>
+      <tr>
+        <td><img src="img/order_df.png" width=30%></td>
+        <td><img src="img/customer_df.png" width=30%></td>
+        <td><img src="img/product_df.png" width=30%></td>
+      </tr>
+      <tr>
+        <td>Orders Dataframe</td>
+        <td>Customers Dataframe</td>
+        <td>Products Dataframe</td>
+      </tr>
+     </table>
+
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
