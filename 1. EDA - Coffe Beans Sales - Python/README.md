@@ -53,13 +53,28 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 - Tahapan : 
     - Buka _Google Colab_.
     - Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
+        ```pyhton
+        import pandas as pd
+        import requests
+        ```
+    - Unduh file ke _Google Colab_.
+        ```python
+        url = "https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx"
+        response = requests.get(url)
         
-```pyhton
-import pandas as pd
-import requests
-```
-    
-    - Unduh file menggunakan fungsi **requests**. 
+        with open("coffeeOrdersData.xlsx", "wb") as file:
+            file.write(response.content)
+        ```
+    - Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
+
+        ```python
+        xls = pd.ExcelFile('coffeeOrdersData.xlsx')
+        print(xls.sheet_names)
+        
+        orders = pd.read_excel(xls, 'orders')
+        customers = pd.read_excel(xls, 'customers')
+        products = pd.read_excel(xls, 'products')
+        ```
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
