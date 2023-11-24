@@ -49,13 +49,15 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 <br></br>
 
 #### Load Data to Google Colab
-- Url Sumber Data : `https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx` 
+- *Url* Sumber Data : `https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx` 
 - Tahapan : 
     - Buka _Google Colab_.
-    - Impor pustaka yang dibutuhkan (`requests` dan `pandas`).
+    - Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
         ```pyhton
+
         import pandas as pd
         import requests
+        
         ```
     - Unduh
 
