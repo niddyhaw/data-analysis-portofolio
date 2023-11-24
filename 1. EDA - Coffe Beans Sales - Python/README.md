@@ -46,9 +46,14 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
 ***Lets Get Started!***
 
-#### 1. Load Data to Google Colab
-- Sumber Data : dataset memiliki format _excel_ atau _.xlsx_ ini didapatkan dari repositori milik mochen862 
+#### Load Data to Google Colab
+##### Data Source and Relationship Model
+Dataset yang digunakan pada portofolio ini didapatkan dari repositori milik mochen862 bernama _`coffeeOrderData`_ dengan format `.xlsx` atau `excel`. Terdapat 3 _sheets_ berbeda yakni :
+- 
 
+
+
+##### Data Source and Relationship Model
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
