@@ -47,10 +47,9 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 ***Lets Get Started!***
 
 #### Load Data to Google Colab
-##### Data Source and Relationship Model
+
 Dataset yang digunakan pada portofolio ini didapatkan dari repositori milik mochen862 bernama _`coffeeOrderData`_ dengan format `.xlsx` atau `excel`. Terdapat 3 _sheets_ berbeda yakni :
 - 
-
 
 
 ##### Data Source and Relationship Model
