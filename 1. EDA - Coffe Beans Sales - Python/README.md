@@ -7,6 +7,7 @@
  - [Tools and Dataset](#tools-and-dataset)
  - [*Exploratory Data Analysis*](#exploratory-data-analysis)
     - [Load Data from Github to Google Colab](#load-data-to-google-colab)
+    - [Distinguist Attribute]
 
 ### *Overview*
 **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
@@ -15,8 +16,7 @@ Perusahaan berupaya **mengandalkan data penjualan mentah** untuk mengetahui info
 
 Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory data analysis)* untuk **mengetahui pola dan karakteristik pelanggan** serta **mengidentifikasi adanya kesalahan dan anomali** guna mendapatkan pemahaman mengenai pelanggan dari bijih kopi di perusahaan XYZ dalam setahun terakhir. 
 
-### *Tools and Dataset*
-- Dataset : [coffeeOrderData.xlsx dari repositori mochen862](https://github.com/mochen862/excel-project-coffee-sales)
+### *Tools*
 - Bahasa Pemrograman : *Python*.
 - *Notebook Platform* : *Google Colab*.
 
@@ -25,7 +25,7 @@ Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory dat
 **Analisis data eksploratif** atau **_Exploratory Data Analysis_ _(EDA)_** merupakan proses awal 
 yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan adanya **_EDA,_** kita dapat dengan mudah memahami pola, identifikasi kesalahan atau anomai serta mampu mengeksplorasi hubungan antar variabel dalam data. 
 
-Menurut [Tufféry, S.](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
+Menurut [Tufféry, S](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
 
 1. Identifikasi Atribut 
 2. Analisis secara Univariat
@@ -48,49 +48,50 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
 <br></br>
 
+
 #### Load Data to Google Colab
-- **Sumber Data** : [coffeeOrdersData.xlsx](`https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx`)
-- **Tahapan** : 
-    1. Buka _Google Colab_.
-    2. Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
-        ```pyhton
-        import pandas as pd
-        import requests
-        ```
-    3. Unduh file ke _Google Colab_.
-        ```python
-        url = "https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx"
-        response = requests.get(url)
+1. Buka _Google Colab_.
+2. Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
+    ```pyhton
+    import pandas as pd
+    import requests
+    ```
+    
+3. Unduh file [coffeeOrderData.xlsx](https://github.com/mochen862/excel-project-coffee-sales)dari repositori mochen862 ke _Google Colab_.
+    ```python
+        url = "https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersDataxlsx"
+    response = requests.get(url)
         
-        with open("coffeeOrdersData.xlsx", "wb") as file:
-            file.write(response.content)
-        ```
-    4. Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
+    with open("coffeeOrdersData.xlsx", "wb") as file:
+        file.write(response.content)
+    ```
 
-        ```python
-        xls = pd.ExcelFile('coffeeOrdersData.xlsx')
-        print(xls.sheet_names)
-        
-        orders = pd.read_excel(xls, 'orders')
-        customers = pd.read_excel(xls, 'customers')
-        products = pd.read_excel(xls, 'products')
-        ```
-- **Hasil**: 
+4. Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
+    ```python
+    xls = pd.ExcelFile('coffeeOrdersData.xlsx')
+    print(xls.sheet_names)
+    
+    orders = pd.read_excel(xls, 'orders')
+    customers = pd.read_excel(xls, 'customers')
+    products = pd.read_excel(xls, 'products')
+    ```
 
+5. Dataframe Order, Produk dan Pelanggan.
     <table>
       <tr>
-        <td> <p align="center">Orders Dataframe</p></td>
-        <td> <p align="center">Customers Dataframe</p></td>
-        <td> <p align="center">Products Dataframe</p></td>
+        <td> <p align="center">Dataframe Order</p></td>
+        <td> <p align="center">Dataframe Pelanggan</p></td>
+        <td> <p align="center">Dataframe Produk</p></td>
       </tr>
       <tr>
         <td><img src="img/order_df.png" </td>
         <td><img src="img/customer_df.png" ></td>
         <td><img src="img/product_df.png" ></td>
       </tr>
-     </table>
+    </table>
 
-#### Create Data Model
+6. Denormalisasi dataframe kedalam 1 tabel untuk efensiesi analisis.
+
 
 
 ### Referensi 
