@@ -49,15 +49,15 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 <br></br>
 
 #### Load Data to Google Colab
-- **Sumber Data** : `https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx` 
+- **Sumber Data** : [coffeeOrdersData.xlsx](`https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx`)
 - **Tahapan** : 
-    - Buka _Google Colab_.
-    - Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
+    1. Buka _Google Colab_.
+    2. Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
         ```pyhton
         import pandas as pd
         import requests
         ```
-    - Unduh file ke _Google Colab_.
+    3. Unduh file ke _Google Colab_.
         ```python
         url = "https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersData.xlsx"
         response = requests.get(url)
@@ -65,7 +65,7 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
         with open("coffeeOrdersData.xlsx", "wb") as file:
             file.write(response.content)
         ```
-    - Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
+    4. Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
 
         ```python
         xls = pd.ExcelFile('coffeeOrdersData.xlsx')
@@ -79,16 +79,18 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
     <table>
       <tr>
-        <td><img src="img/order_df.png" </td>
-        <td><img src="img/customer_df.png" ></td>
-        <td><img src="img/product_df.png" ></td>
-      </tr>
-      <tr>
         <td> <p align="center">Orders Dataframe</p></td>
         <td> <p align="center">Customers Dataframe</p></td>
         <td> <p align="center">Products Dataframe</p></td>
       </tr>
+      <tr>
+        <td><img src="img/order_df.png" </td>
+        <td><img src="img/customer_df.png" ></td>
+        <td><img src="img/product_df.png" ></td>
+      </tr>
      </table>
+
+#### Create Data Model
 
 
 ### Referensi 
