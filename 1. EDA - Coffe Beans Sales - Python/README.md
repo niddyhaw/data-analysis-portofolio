@@ -1,4 +1,4 @@
-## Exploratory Data Analysis - Coffee Beans Consumer Insight
+## Exploratory Data Analysis - Coffee Beans Sales Insight
 
 > [Back to HomePage](https://github.com/niddyhaw/data-analysis-portofolio)
 
@@ -7,7 +7,7 @@
  - [Tools and Dataset](#tools-and-dataset)
  - [*Exploratory Data Analysis*](#exploratory-data-analysis)
     - [Load Data from Github to Google Colab](#load-data-to-google-colab)
-    - [Distinguist Attribute]
+    - [Distinguist Attribute](#distinguist-attributes)
 
 ### *Overview*
 **Perusahaan XYZ** merupakan yang bergerak dalam **penjualan bijih kopi kepada pelanggan di 3 negara yakni Amerika, Irlandia dan Inggris**. 
@@ -25,7 +25,7 @@ Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory dat
 > **Analisis data eksploratif** atau **_Exploratory Data Analysis_ _(EDA)_** merupakan proses awal 
 yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan adanya **_EDA,_** kita dapat dengan mudah memahami pola, identifikasi kesalahan atau anomai serta mampu mengeksplorasi hubungan antar variabel dalam data. 
 
-> Menurut [Tufféry, S](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni Identifikasi Atribut, Analisis secara Univariat, Analisis secara Bi-Multivariat, Deteksi *Missing Value* dan Anomali, Deteksi *Outlier*, *Feature Engineering*
+> Menurut [Tufféry, S](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni Identifikasi Atribut, Analisis secara Univariat, Analisis secara Bi-Multivariat, Deteksi *Missing Value* dan Anomali, Deteksi *Outlier*, *Feature Engineering*.
 
 <p align="center">
     <br>
@@ -58,6 +58,8 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
     ```
 
 4. Ekstrak file ke dalam format _dataframe_ menggunakan _pandas_.
+    > DataFrame adalah struktur data dua dimensi (kolom & baris) dalam bahasa pemrograman komputer _Python_ yang mirip dengan tabel di _Microsoft Excel_.
+
     ```python
     xls = pd.ExcelFile('coffeeOrdersData.xlsx')
     print(xls.sheet_names)
@@ -88,7 +90,7 @@ df = pd.merge(pd.merge(orders.dropna(axis=1), customers, on="Customer ID", how="
 <p align="center">
     <br>
     <img src="img/merged_df.png" alt="Tabel Gabungan" >
-    <p align="center"> Info dari dataframe gabungan</p>
+    <p align="center"> Info dari data gabungan</p>
     <br>
 </p>
 
@@ -104,7 +106,7 @@ df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line
 <p align="center">
     <br>
     <img src="img/df.png" alt="Dataframe Setelah De-Identifikasi Data " >
-    <p align="center"> Info dataframe setelah de-identifikasi data </p>
+    <p align="center"> Info data setelah de-identifikasi data </p>
     <br>
 </p>
 
@@ -112,7 +114,13 @@ df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line
 ***Dataset Ready!, Lets Identify Each Attribute***
 
 
-#### Load Data to Google Colab Using Python
+#### Distinguist Attributes
+Terdapat 2 jenis atribut dalam dataset yakni:
+1. Atribut Kategorik
+    Beberapa 
+
+
+2. Atribut Numerik
 
 
 ### Referensi 
