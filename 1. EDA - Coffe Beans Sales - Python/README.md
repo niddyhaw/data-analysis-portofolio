@@ -46,8 +46,6 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 
 ***Lets Get Started!***
 
-<br></br>
-
 
 #### Load Data to Google Colab
 1. Buka _Google Colab_.
@@ -56,7 +54,7 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
     import pandas as pd
     import requests
     ```
-    
+
 3. Unduh file [coffeeOrderData.xlsx](https://github.com/mochen862/excel-project-coffee-sales)dari repositori mochen862 ke _Google Colab_.
     ```python
         url = "https://github.com/mochen862/excel-project-coffee-sales/raw/main/coffeeOrdersDataxlsx"
@@ -91,8 +89,9 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
     </table>
 
 6. Denormalisasi dataframe kedalam 1 tabel untuk efensiesi analisis.
-
-
+```python
+df = pd.merge(pd.merge(orders.dropna(axis=1), customers, on="Customer ID", how="left"), products, on="Product ID", how="left")
+```
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
