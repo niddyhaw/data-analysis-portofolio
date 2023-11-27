@@ -88,10 +88,31 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
       </tr>
     </table>
 
-6. Denormalisasi dataframe kedalam 1 tabel untuk efensiesi analisis.
+6. Menggabungkan dataframe kedalam 1 tabel untuk efensiesi analisis.
 ```python
 df = pd.merge(pd.merge(orders.dropna(axis=1), customers, on="Customer ID", how="left"), products, on="Product ID", how="left")
 ```
+<p align="center">
+    <br>
+    <img src="img/merged_df.png" alt="Tabel Gabungan" >
+    <p align="center"> Info dari dataframe gabungan</p>
+    <br>
+</p>
+
+
+7. Menerapkan de-identifikasi data untuk menjaga privasi pelanggan.
+**De-identifikasi** adalah proses menghilangkan atau menutupi informasi pengenal pribadi (PII) untuk mengurangi risiko adanya keterkaitan identitas subjek dengan data. Terdapat beberapa informasi pribadi yang perlu dihilangkan pada dataset ini diantara lain Nama Pelanggan _(Customer Name)_, Email _(Email)_, Nomor Telepon _(Phone Number)_, Alamat _(Address Line 1)_ dan Kode Pos _(Poscode)_.
+
+```python
+df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line 1', 'Postcode'])]
+```
+
+<p align="center">
+    <br>
+    <img src="img/df.png" alt="Dataframe Setelah De-Identifikasi Data " >
+    <p align="center"> Info dataframe setelah de-identifikasi data </p>
+    <br>
+</p>
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
