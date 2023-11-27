@@ -22,17 +22,10 @@ Proyek ini berupaya untuk menerapkan analisis data eksploratif *(exploratory dat
 
 ### *Exploratory Data Analysis*
 
-**Analisis data eksploratif** atau **_Exploratory Data Analysis_ _(EDA)_** merupakan proses awal 
+> **Analisis data eksploratif** atau **_Exploratory Data Analysis_ _(EDA)_** merupakan proses awal 
 yang dapat dilakukan untuk memahami suatu data berserta karakteristiknya. Dengan adanya **_EDA,_** kita dapat dengan mudah memahami pola, identifikasi kesalahan atau anomai serta mampu mengeksplorasi hubungan antar variabel dalam data. 
 
-Menurut [Tufféry, S](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni : 
-
-1. Identifikasi Atribut 
-2. Analisis secara Univariat
-3. Analisis secara Bi-Multivariat
-4. Deteksi *Missing Value* dan Anomali
-5. Deteksi *Outlier* 
-6. *Feature Engineering*
+> Menurut [Tufféry, S](#referensi) pada buku berjudul *Data mining and statistics for decision making* tahun 2011, **EDA** pada umunya terdiri dari 6 tahapan yakni Identifikasi Atribut, Analisis secara Univariat, Analisis secara Bi-Multivariat, Deteksi *Missing Value* dan Anomali, Deteksi *Outlier*, *Feature Engineering*
 
 <p align="center">
     <br>
@@ -47,7 +40,7 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
 ***Lets Get Started!***
 
 
-#### Load Data to Google Colab
+#### Load Data to Google Colab Using Python
 1. Buka _Google Colab_.
 2. Impor pustaka yang dibutuhkan (**requests** dan **pandas**).
     ```pyhton
@@ -114,6 +107,13 @@ df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line
     <p align="center"> Info dataframe setelah de-identifikasi data </p>
     <br>
 </p>
+
+
+***Dataset Ready!, Lets Identify Each Attribute***
+
+
+#### Load Data to Google Colab Using Python
+
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
