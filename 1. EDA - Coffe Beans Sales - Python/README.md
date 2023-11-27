@@ -101,7 +101,8 @@ df = pd.merge(pd.merge(orders.dropna(axis=1), customers, on="Customer ID", how="
 
 
 7. Menerapkan de-identifikasi data untuk menjaga privasi pelanggan.
-**De-identifikasi** adalah proses menghilangkan atau menutupi informasi pengenal pribadi (PII) untuk mengurangi risiko adanya keterkaitan identitas subjek dengan data. Terdapat beberapa informasi pribadi yang perlu dihilangkan pada dataset ini diantara lain Nama Pelanggan _(Customer Name)_, Email _(Email)_, Nomor Telepon _(Phone Number)_, Alamat _(Address Line 1)_ dan Kode Pos _(Poscode)_.
+
+>> **De-identifikasi** adalah proses menghilangkan atau menutupi informasi pengenal pribadi (PII) untuk mengurangi risiko adanya keterkaitan identitas subjek dengan data. Terdapat beberapa informasi pribadi yang perlu dihilangkan pada dataset ini diantara lain Nama Pelanggan _(Customer Name)_, Email _(Email)_, Nomor Telepon _(Phone Number)_, Alamat _(Address Line 1)_ dan Kode Pos _(Poscode)_.
 
 ```python
 df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line 1', 'Postcode'])]
