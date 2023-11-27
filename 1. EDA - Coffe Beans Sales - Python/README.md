@@ -70,11 +70,12 @@ Selanjutnya kita akan menerapkan *EDA* secara bertahap pada dataset menggunakan 
     ```
 
 5. Dataframe Order, Produk dan Pelanggan.
+> Fungsi _.info()_ memberikan informasi mengenai nama, jumlah baris yang tidak kosong dan tipe data masing-masing atribut. 
     <table>
       <tr>
-        <td> <p align="center">Dataframe Order</p></td>
-        <td> <p align="center">Dataframe Pelanggan</p></td>
-        <td> <p align="center">Dataframe Produk</p></td>
+        <td> <p align="center">Info Dataframe Order</p></td>
+        <td> <p align="center">Info Dataframe Pelanggan</p></td>
+        <td> <p align="center">Info Dataframe Produk</p></td>
       </tr>
       <tr>
         <td><img src="img/order_df.png" </td>
@@ -115,13 +116,20 @@ df = df[df.columns.drop(['Customer Name', 'Email', 'Phone Number', 'Address Line
 
 
 #### Distinguist Attributes
-Terdapat 2 jenis atribut dalam dataset yakni:
+Proses idenfikasi atribut pada sesi ini menggunakan fungsi _.describe()_ untuk menghasilkan deskripsi dari masing-masing atribut sebagai berikut: 
 1. Atribut Kategorik
-    Beberapa 
+> Fungsi fungsi _.describe()_ pada atribut kategorik memberikan deskripsi tentang jumlah baris yang tidak kosong _(count)_, jumlah nilai yang unik _(unique)_, nilai yang paling sering muncul _(top)_ dan jumlah frequensi pada nilai yang paling sering muncul _(freq)_ pada suatu atribut. 
+
+```python
+df.select_dtypes(include='object').describe().transpose()
+```
 
 
 2. Atribut Numerik
-
+```python
+df.select_dtypes(include='object').describe().transpose()
+```
 
 ### Referensi 
 1. Tufféry, S. (2011). [*Data mining and statistics for decision making*](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470979174). John Wiley & Sons.
+2. Cote
